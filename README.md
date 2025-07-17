@@ -54,17 +54,17 @@ It simulates **realistic, production-adaptable pipelines**, with a focus on **pr
 ai-financial-signals-pipeline/
 │
 ├── src/
-│   ├── data/       # Data ingestion modules
-│   ├── features/   # Signal and feature engineering
-│   ├── models/     # ML models for meta-signals
-│   ├── backtest/   # Backtesting framework
-│   ├── viz/        # Visualization utilities
-│   └── config/     # Config files and constants
+│   ├── data/        # Data ingestion modules (yfinance, CoinGecko, FRED)
+│   ├── features/    # Signal and feature engineering (RSI, SMA, Momentum, MACD)
+│   ├── models/      # ML meta-signals (XGBoost classifier on signals)
+│   ├── backtest/    # Backtesting logic and performance calculations
+│   ├── viz/         # Visualization utilities (cumulative returns, heatmaps)
+│   └── config/      # Constants, environment setup
 │
-├── notebooks/      # Exploratory analysis
-├── images/         # Result visuals for README
-├── requirements.txt
-└── README.md
+├── notebooks/        # Exploratory notebooks (EDA, ML training, visuals)
+├── images/           # Static images for README (performance charts)
+├── requirements.txt  # Python package dependencies
+└── README.md          # Project overview
 
 ---
 
