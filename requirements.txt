@@ -1,0 +1,12 @@
+pandas
+yfinance
+pycoingecko
+fredapi
+scikit-learn
+xgboost
+matplotlib
+seaborn
+
+jupyter
+streamlit
+sqlalchemy
