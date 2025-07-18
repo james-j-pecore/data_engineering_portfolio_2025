@@ -34,7 +34,7 @@ It simulates **realistic, production-adaptable pipelines**, with a focus on **pr
 | **Modeling**         | scikit-learn, XGBoost                                |
 | **Backtesting**      | Custom Python backtester                             |
 | **Visualization**    | matplotlib, seaborn                                  |
-| **Package Design**   | pip-installable structure, CLI-ready modules        |
+| **Structure**         | pip-installable, modular, expandable                 |
 
 ---
 
@@ -50,21 +50,24 @@ It simulates **realistic, production-adaptable pipelines**, with a focus on **pr
 
 ---
 
-## 🗂️ Repository Structure
+### 📂 Repository Structure
+
+```
 ai-financial-signals-pipeline/
 │
 ├── src/
 │   ├── data/        # Data ingestion modules (yfinance, CoinGecko, FRED)
-│   ├── features/    # Signal and feature engineering (RSI, SMA, Momentum, MACD)
-│   ├── models/      # ML meta-signals (XGBoost classifier on signals)
-│   ├── backtest/    # Backtesting logic and performance calculations
-│   ├── viz/         # Visualization utilities (cumulative returns, heatmaps)
-│   └── config/      # Constants, environment setup
+│   ├── features/    # Signal engineering (RSI, SMA, Momentum, MACD)
+│   ├── models/      # ML meta-signals (XGBoost classifiers)
+│   ├── backtest/    # Backtesting logic and performance metrics
+│   ├── viz/         # Visualization utilities (returns plots, heatmaps)
+│   └── config/      # Configuration files and constants
 │
-├── notebooks/        # Exploratory notebooks (EDA, ML training, visuals)
-├── images/           # Static images for README (performance charts)
-├── requirements.txt  # Python package dependencies
-└── README.md          # Project overview
+├── notebooks/       # EDA and ML training notebooks
+├── images/          # Static result images for README
+├── requirements.txt # Package dependencies
+└── README.md        # Project documentation
+```
 
 ---
 
