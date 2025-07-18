@@ -1,6 +1,18 @@
 # 🚀 AI-Enhanced Financial Signals Pipeline
 
-Production-ready pipeline for ingesting, engineering, backtesting, and visualizing AI-powered financial trading signals using **free, live, public data**.
+This project demonstrates professional-grade data engineering workflows, simulating realistic, production-adaptable pipelines from live data ingestion to feature engineering, backtesting, and research-ready outputs.
+✅ Primary Focus: Build clean, reliable, modular pipelines suitable for quant research environments—emphasizing data integrity, explainable signals, and scalability.
+✅ Not a Strategy Tool: This project is not intended as a live trading system or alpha model. It focuses on robust data workflows that help researchers and strategists quickly prototype and backtest ideas with minimal engineering overhead.
+✅ Professional Standards:
+
+- Multi-source ingestion (Equities, Crypto, Macro)
+- Modular, production-ready architecture
+- Explainable, validated signal pipelines
+- Reproducible backtesting results
+- Clean documentation and extensibility
+
+📌 Why This Project Matters
+In quant research, the ability to rapidly translate ambiguous data needs into reliable, clean pipelines is critical. This project reflects my approach to building flexible, validated data systems that can support high-frequency research cycles with downstream reliability.
 
 ---
 
